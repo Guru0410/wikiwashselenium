@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Form Validations]">
+  <test name="Main Wiki Wash Test(failed)">
+    <classes>
+      <class name="testcases.VerifyBrokenLinks">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.VerifyBrokenLinks -->
+      <class name="testcases.WashURL">
+        <methods>
+          <include name="testWashURLEditCount"/>
+        </methods>
+      </class> <!-- testcases.WashURL -->
+    </classes>
+  </test> <!-- Main Wiki Wash Test(failed) -->
+  <test name="Broken Links Verification(failed)">
+    <classes>
+      <class name="testcases.VerifyBrokenLinks">
+        <methods>
+          <include name="verifyBrokenLinks"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.VerifyBrokenLinks -->
+    </classes>
+  </test> <!-- Broken Links Verification(failed) -->
+</suite> <!-- Failed suite [Form Validations] -->
